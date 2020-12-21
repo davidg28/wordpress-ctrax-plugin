@@ -1,0 +1,11 @@
+/node_modules
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.user
+/.phpstorm.meta.php
+.phpstorm.meta.php
+_ide_helper.php
+/_ide_helper.php
+*.patch

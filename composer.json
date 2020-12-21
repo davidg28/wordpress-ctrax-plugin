@@ -1,0 +1,27 @@
+{
+	"name": "ctrax/c-trax-integration",
+	"description": "Wordpress plugin for clients in order to integrate Square and the C-Trax API.",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "C-Trax",
+			"email": "general@ctrax.com"
+		}
+	],
+	"require": {
+		"squizlabs/php_codesniffer": "3.5.4",
+		"guzzlehttp/guzzle": "^6.5",
+		"nesbot/carbon": "^2.32",
+		"ext-json": "*"
+	},
+	"config": {
+		"optimize-autoloader": true
+	},
+	"autoload" : {
+		"psr-4" : {
+			"C_Trax_Integration\\" : "c-trax-integration/"
+		},
+		"classmap": ["controllers/", "traits/", "includes/", "views/", "models/"]
+	}
+}

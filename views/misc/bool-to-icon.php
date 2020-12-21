@@ -1,0 +1,1 @@
+<i class="fa fa-<?php echo $icon; ?> fa-2x"></i>

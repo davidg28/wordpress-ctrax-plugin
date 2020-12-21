@@ -1,0 +1,1 @@
+<input type="<?php echo $type; ?>" name="<?php echo $name; ?>" value="<?php echo $value; ?>" aria-label="<?php echo $label; ?>" <?php echo $str; ?> aria-describedby="<?php echo $describedBy; ?>" />

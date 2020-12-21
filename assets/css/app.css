@@ -1,0 +1,50 @@
+/** Bootstrap Corrections */
+.card {
+	box-sizing : unset !important;
+	box-shadow : unset !important;
+	max-width  : unset !important;
+	margin     : unset !important;
+	padding    : 0 !important;
+}
+.card .card-text {
+	font-size : 1em !important;
+}
+.progressbar {
+	text-align : center;
+}
+.progressbar li {
+	list-style-type : none;
+	border-left     : 10px solid #CCC;
+	border-right    : 10px solid #CCC;
+	border-radius   : 50px;
+	margin          : 4px;
+}
+.progressbar li .icon {
+	font-size : 2em;
+}
+.progressbar li .status {
+	font-size : 1.8em;
+}
+.progressbar li .title {
+	font-size   : 1em;
+	font-weight : bold;
+	line-height : 48px;
+}
+.progressbar li:first-child {
+	border-radius : 0 50px 50px 0;
+	border        : none;
+	border-right  : 10px solid #CCC;
+	margin-right  : 0;
+}
+.progressbar li:last-child {
+	border-radius : 50px 0 0 50px;
+	border        : none;
+	border-left   : 10px solid #CCC;
+	margin-left   : 0;
+}
+.input-group > .input-group-prepend {
+	flex : 0 0 25%;
+}
+.input-group .input-group-text {
+	width : 100%;
+}
